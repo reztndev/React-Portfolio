@@ -1,0 +1,111 @@
+/*** Header component ***/
+header {
+  padding-top: 50px;
+  padding-bottom: 50px; 
+ 
+  background-image: url('./Assets/tech-background.jpg');
+
+  /*
+   * Experiment for better presentation.  Currently, it looks good
+   * without the following
+
+  background-size: cover; 
+  background-position: center;
+  height: 200px;
+  */
+}
+
+.header-title {
+  padding-left: 15px; 
+  color:white;
+
+  /*font-family: 'Impact', fantasy;  <-- looks a bit odd*/
+  font-weight: 800;
+}
+/* -------------------------------------------------------------- */
+
+/*** Navigation attributes ***/
+.nav-link {
+  color:white;
+  text-decoration: none;            /* Removes underline */
+}
+
+.nav-link:hover {
+  color:aqua; 
+}
+/* -------------------------------------------------------------- */
+
+/*** body attributes ***/
+body {
+  background-color:darkslategrey; 
+  color:white;
+}
+/* -------------------------------------------------------------- */
+
+/*** About page ***/
+.about-me {
+  color:white; 
+}
+/* -------------------------------------------------------------- */
+
+/*** Contact page and form properties ***/
+.contact-heading {
+  margin-top: 40px; 
+}
+
+.form {
+  margin: 0px;              /* original margin: 20px; */
+}
+
+.form input {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 30%;        
+}
+
+.form-message-input {
+  width: 30%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+/* -------------------------------------------------------------- */
+
+/*** Resume page ***/
+.resume-heading {
+  margin-top: 40px; 
+}
+
+.resume-container {
+  margin-left: 50px; 
+}
+
+.download-header {
+  margin-right: 5px;
+}
+
+.download-text, .download-resume {
+  font-size: 1.4rem; 
+  font-weight: bold; 
+  color: inherit;         /* Ensures the font property for "resume" is consistent with "Download my"*/
+}
+/* -------------------------------------------------------------- */
+
+/*** Project Component ***/
+.project-card {
+  background-color: #f0f0f0;
+}
+
+.card-text {
+
+    font-weight: bold;
+  
+
+    text-shadow:content;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;                /* Space between buttons */
+}
