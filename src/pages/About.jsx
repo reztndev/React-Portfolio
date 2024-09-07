@@ -4,7 +4,7 @@ export default function About() {
           <h2 className="about-me mt-5 mb-4">About Me</h2>
           <div className="img-container">
           
-              <img src="../../Assets/photo-130-172.jpg" 
+              <img src="/images/photo-130-172.jpg" 
               alt="Personal Photo" 
               className="img-thumbnail" />
           
