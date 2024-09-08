@@ -3,7 +3,7 @@ header {
   padding-top: 50px;
   padding-bottom: 50px; 
  
-  background-image: url('./Assets/tech-background.jpg');
+  background-image: url('/images/tech-background.jpg');
 
   /*
    * Experiment for better presentation.  Currently, it looks good
